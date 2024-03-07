@@ -69,6 +69,5 @@ function startOver() {
     gamePattern = [];
     userClickedPattern = [];
     level = 0;
-    $("h1").text("Press A Key to Start"); // Zurücksetzen des H1-Textes
     keyPressed = false; // Erlaubt einen weiteren Tastendruck, um das Spiel zu starten
 }
